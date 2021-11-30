@@ -50,7 +50,7 @@ export const multiplyBy = (num1) => {
     function multiplyByTwo (num2) { 
         return num1 * num2;
     }
-    return multiplyByTwo;
+    return multiplyByTwo();
 };
 
 
