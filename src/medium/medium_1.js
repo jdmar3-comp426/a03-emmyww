@@ -56,7 +56,7 @@ export function getStatistics(array) {
     let min = Math.min(...array)
     let max = Math.max(...array)
     let varianceVar = variance(array, mean); // import??- already done at the top
-    let standard_deviation = Math.sqrt(variance); 
+    let standard_deviation = Math.sqrt(varianceVar); 
    
     return {
         length: length,
