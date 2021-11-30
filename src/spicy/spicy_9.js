@@ -29,7 +29,7 @@ export const repeat = (fn, n, ...params) => {
  *   10 times.
  */
 export const repeatDemo = () => {
-    repeat("Hello, world!", 10,[]);
+    repeat(console.log, 10, "Hello, world!");
 
 };
 
@@ -47,7 +47,9 @@ export const repeatDemo = () => {
  *   product of num1 and num2.
  */
 export const multiplyBy = (num1) => {
-    return multiplyByTwo = (num2) => {num1 * num2};
+    return function multiplyByTwo (num2) { 
+        num1 * num2;
+    }
 };
 
 
