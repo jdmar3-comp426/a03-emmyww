@@ -14,8 +14,12 @@
  * @return        Returns an array containing the return values obtained
  *                from calling the function
  */
-export const repeat = (fn, n, ...params) => {
-
+export const repeat = (fn, n, ...params) => { 
+    let final=[];
+    while (n !== 0) {
+        final.push(fn(params));
+        n--;
+    }
 };
 
 
