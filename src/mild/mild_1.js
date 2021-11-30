@@ -45,7 +45,7 @@ export function maxAndMin(numbers) {
    // Math.max(...numbers);
     // console.log(`min: ${Math.min(...numbers)}, max: ${Math.max(...numbers)}`)
     return {
-        min: Math.min(...numbers), max: Math.max(...numbers)
+        max: Math.max(...numbers), min: Math.min(...numbers)
     }
 
 }

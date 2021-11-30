@@ -13,6 +13,7 @@ export function identifyVariable(variable) {
    }
 }
 */
+}
 /**
  *
  * @param array
@@ -103,4 +104,4 @@ export function removeKeys(object, keyList) {
   return object;
    }
    
-}
+
