@@ -7,7 +7,7 @@
  */
 export function identifyVariable(variable) {
    let type = typeof(variable);
-   console.log(`type: ${type}, value: ${variable}`)
+   console.log(`type: '${type}', value: '${variable}'`)
    /*return {
       type: type, value: variable
    }
