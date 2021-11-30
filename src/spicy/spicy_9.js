@@ -20,6 +20,7 @@ export const repeat = (fn, n, ...params) => {
         final.push(fn(params));
         n--;
     }
+    return final;
 };
 
 
