@@ -50,7 +50,7 @@ export const multiplyBy = (num1) => {
     function multiplyByTwo (num2) { 
         return num1 * num2;
     }
-    return multiplyByTwo();
+    return multiplyByTwo;
 };
 
 
@@ -58,7 +58,7 @@ export const multiplyBy = (num1) => {
  * Use the multiplyBy function to create and export a function named
  *   "tenTimes" that multiplies a number by 10.
  */
-export const tenTimes = (num) => multiplyBy(10);
+export const tenTimes = multiplyBy(10);
 
 
 /**
