@@ -30,7 +30,7 @@ export function identifyArray(array) {
    for (let i=0; i<array.length; i++) {
       identifyVariable(array[i])
    }
-   // return array.map(identifyVariable)
+   return array.map(identifyVariable)
 }
 
 /**
