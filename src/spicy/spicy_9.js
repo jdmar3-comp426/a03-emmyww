@@ -174,6 +174,12 @@ export const filter = (arr, test) => {
  *   odd numbers. Use the "everyEven" function in this function.
  */
 export const allEvensAreOdd = (arr) => {
+    everyEven (arr,test);
+    function test (number) {
+        if (arr[number] % 2 == 0){
+            return false;
+        }
+    }
 
 };
 
