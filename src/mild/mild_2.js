@@ -96,7 +96,7 @@ return noKey;
  * @return {*} The object with its keys removed.
  */
 export function removeKeys(object, keyList) {
-  for (key in keyList) {
+  for (let key in keyList) {
      object = removeKeyNonDestructive(object,key);
   }
   return object;
